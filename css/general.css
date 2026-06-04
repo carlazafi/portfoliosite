@@ -95,4 +95,55 @@ nav.active .menu a {
 }
 
 /* ------DESKTOP----- */
-@media (min-width: 800px);
+@media (min-width: 800px) {
+  .burger {
+    display: none;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .menu {
+    display: flex;
+    flex-direction: row;
+    position: static;
+    border: none;
+    padding: 0;
+    gap: 36px;
+    color: var(--color-h2);
+  }
+
+  .menuItem {
+    padding: 0;
+    font-size: 14px;
+    position: relative;
+  }
+
+  .menuItem::after {
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: var(--color-h2);
+    transform: scaleX(0);
+    transition: transform 0.25s ease;
+  }
+
+  .menuItem:hover {
+    color: var(--color-h2);
+  }
+  .menuItem:hover::after {
+    transform: scaleX(1);
+  }
+
+  /*   .logo {
+    position: static;
+    transform: none;
+  } */
+}
