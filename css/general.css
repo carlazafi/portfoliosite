@@ -128,12 +128,35 @@ nav.active .menu a {
   color: var(--color-bg3);
 }
 
-/* BOXE */
+/* ----- BOXE -----*/
 
-.section-index {
+/* Sections */
+section {
   border: 1px solid var(--color-border);
   border-radius: 8px;
-  background-color: var();
+}
+
+.section-index {
+  background-color: var(--color-bg2);
+}
+
+.section-portfolio1 {
+  background: url(../img/T01.webp) center/cover no-repeat;
+}
+.section-portfolio2 {
+  background: url(../img/T02.webp) center/cover no-repeat;
+}
+.section-portfolio3 {
+  background: url(../img/T03.webp) center/cover no-repeat;
+}
+.section-portfolio4 {
+  background: url(../img/T04.webp) center/cover no-repeat;
+}
+.section-portfolio5 {
+  background: url(../img/T05.webp) center/cover no-repeat;
+}
+.section-portfolio6 {
+  background: url(../img/T06.webp) center/cover no-repeat;
 }
 
 /* KNAPPER */
