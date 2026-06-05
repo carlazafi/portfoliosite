@@ -1,42 +1,76 @@
 @font-face {
-  font-family:;
-  src: url();
+  font-family: special;
+  src: url(/fonts/SpecialGothicExpandedOne-Regular.woff2);
+}
+@font-face {
+  font-family: archivoblack;
+  src: url(/fonts/ArchivoBlack-Regular.woff2);
+}
+@font-face {
+  font-family: archivo;
+  src: url(/fonts/Archivo-VariableFont_wdth\,wght.woff2);
 }
 
-/* FARVER */
+/* GENERELT */
 :root {
-  --color-bg1: ;
-  --color-bg2: ;
+  --color-bg1: #f7f1eb;
+  --color-bg2: white;
   --color-bg-box: ;
-  --color-bg-menu: ;
+  --color-bg-menu: #0061ff;
 
-  --color-h1: ;
-  --color-h2: ;
-  --color-h3: ;
-  --color-p: ;
-  --color-burgermenu: ;
-  --color-menu-border: ;
+  --color-h1: black;
+  --color-h2: black;
+  --color-h3: black;
+  --color-p: black;
+  --color-p-burger: white;
+  --color-p-menu: #0061ff;
+  --color-border: #0061ff;
 }
 
+body {
+  background-color: var(--color-bg1);
+}
 /* HEADER */
 
 header {
   display: flex;
   padding-bottom: 40px;
   padding-top: 20px;
+  background-color: var(--color-bg2);
 }
 
-/* MENU */
+/* SKRIFT*/
+
+h1 {
+  font-family: special;
+  color: var(--color-h1);
+}
+
+h2,
+h3 {
+  font-family: archivoblack;
+  color: var(--color-h2);
+}
+
+p {
+  font-family: archivo;
+  color: var(--color-p);
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-p);
+  font-family: archivoblack;
+}
+
+/* BURGER MENU */
 .menu {
   display: none;
 }
 nav ul {
   list-style: none;
 }
-a {
-  text-decoration: none;
-  color: var(--color-p);
-}
+
 .burger {
   display: block;
   background-color: transparent;
@@ -47,7 +81,7 @@ a {
   height: 20px;
   cursor: pointer;
   position: absolute;
-  top: 20px;
+  top: center;
   right: 20px;
 }
 
@@ -74,17 +108,17 @@ a {
 }
 nav.active .menu {
   display: block;
-  background-color: var(--color-bg1);
+  background-color: var(--color-bg-menu);
   position: absolute;
   top: 3.6rem;
   right: 0;
-  width: clamp(200px, 50vw, 400px);
+  width: clamp(150px, 40vw, 400px);
   z-index: 1;
   opacity: 0.9;
 }
 /* header > nav li > a:after {
-    content: "";
-  } */
+  content: "";
+} */
 nav.active .menu li {
   margin: 40px 20px;
   text-align: right;
@@ -92,6 +126,18 @@ nav.active .menu li {
 nav.active .menu a {
   font-size: 20px;
   color: var(--color-bg3);
+}
+
+/* BOXE */
+
+.section-index {
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  background-color: var();
+}
+
+/* KNAPPER */
+.button1 {
 }
 
 /* ------DESKTOP----- */
