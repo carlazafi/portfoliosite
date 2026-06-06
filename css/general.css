@@ -163,8 +163,17 @@ section {
 
 /* KNAPPER */
 .button1 {
+  display: block;
+  padding: 12px 24px;
+  border-radius: 30px;
+  border: 1px solid black;
+  text-decoration: none;
+  text-align: center;
+  background: var(--color-bg-menu);
+  color: var(--color-p-burger);
+  width: 30%;
+  margin: auto;
 }
-
 /* ------DESKTOP----- */
 @media (min-width: 800px) {
   .burger {
