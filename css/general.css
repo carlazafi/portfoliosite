@@ -12,6 +12,12 @@
 }
 
 /* GENERELT */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --color-bg1: #f7f1eb;
   --color-bg2: white;
@@ -37,6 +43,10 @@ header {
   padding-bottom: 40px;
   padding-top: 20px;
   background-color: var(--color-bg2);
+}
+
+main {
+  margin-left: auto;
 }
 
 /* SKRIFT*/
@@ -164,16 +174,24 @@ section {
 /* KNAPPER */
 .button1 {
   display: block;
-  padding: 12px 24px;
+  padding: 12px 40px;
   border-radius: 30px;
   border: 1px solid black;
   text-decoration: none;
   text-align: center;
   background: var(--color-bg-menu);
-  color: var(--color-p-burger);
-  width: 30%;
+  color: var(--color-bg1);
+  -webkit-text-stroke: 1px black;
+  width: 40%;
   margin: auto;
 }
+
+footer {
+  text-align: center;
+  position: relative;
+  font-family: archivo;
+}
+
 /* ------DESKTOP----- */
 @media (min-width: 800px) {
   .burger {
