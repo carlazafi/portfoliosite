@@ -314,11 +314,6 @@ footer {
   font-family: archivo;
 }
 
-#info {
-  max-width: 100%;
-  border: 1px solid var(--color-border);
-}
-
 /* ------DESKTOP----- */
 @media (min-width: 800px) {
   .burger {

@@ -4,3 +4,45 @@
   cursor: pointer;
   filter: brightness(+10);
 }
+
+#info {
+  position: relative;
+}
+
+#info svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.info-text {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  width: 90%;
+  pointer-events: auto;
+  background-color: var(--color-bg1);
+  border-radius: 8px;
+  padding: 1em;
+}
+
+.info-text h2 {
+  margin: 0;
+}
+.info-text .placeholder {
+  margin-top: 0.5rem;
+}
+
+.cv {
+  border: 1px solid black;
+}
+li {
+  font-family: archivo;
+}
+
+li span:first-child {
+  font-weight: bold;
+  min-width: 120px;
+}
