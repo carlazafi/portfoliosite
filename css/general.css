@@ -69,17 +69,20 @@ main {
 h1 {
   font-family: special;
   color: var(--color-h1);
+  padding: 1rem;
 }
 
 h2,
 h3 {
   font-family: archivoblack;
   color: var(--color-h2);
+  padding: 1rem;
 }
 
 p {
   font-family: archivo;
   color: var(--color-p);
+  padding: 1em;
 }
 
 a {
@@ -251,6 +254,15 @@ section {
   max-width: 300px;
   text-align: center;
   margin: 1em;
+}
+
+.section-portfolio1 h2,
+.section-portfolio2 h2,
+.section-portfolio3 h2,
+.section-portfolio4 h2,
+.section-portfolio5 h2,
+.section-portfolio6 h2 {
+  padding: 0;
 }
 
 .grid-1-1-1 h2 {

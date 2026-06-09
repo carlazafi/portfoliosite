@@ -16,6 +16,7 @@
 }
 
 .info-text {
+  display: none;
   position: absolute;
   top: 10%;
   left: 50%;
@@ -26,6 +27,10 @@
   background-color: var(--color-bg1);
   border-radius: 8px;
   padding: 1em;
+}
+
+.info-text.visible {
+  display: block;
 }
 
 .info-text h2 {
