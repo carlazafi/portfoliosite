@@ -1,0 +1,6 @@
+#Work:hover,
+#Hobby:hover,
+#Funfact:hover {
+  cursor: pointer;
+  filter: brightness(+10);
+}

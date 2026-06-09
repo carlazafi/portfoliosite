@@ -303,6 +303,10 @@ section {
   opacity: 0.9;
 }
 
+.Tbox {
+  border-bottom: 1px solid var(--color-border);
+}
+
 /* FOOTER */
 
 footer {
