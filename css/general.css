@@ -1,13 +1,13 @@
 @font-face {
-  font-family: special;
+  font-family: "special";
   src: url(../fonts/SpecialGothicExpandedOne-Regular.woff2);
 }
 @font-face {
-  font-family: archivoblack;
+  font-family: "archivoblack";
   src: url(../fonts/ArchivoBlack-Regular.woff2);
 }
 @font-face {
-  font-family: archivo;
+  font-family: "archivo";
   src: url(../fonts/Archivo-VariableFont_wdth\,wght.woff2);
 }
 
