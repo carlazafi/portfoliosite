@@ -51,3 +51,11 @@ li span:first-child {
   font-weight: bold;
   min-width: 120px;
 }
+
+ul {
+  list-style: none;
+}
+
+h3 {
+  padding-top: 2rem;
+}
