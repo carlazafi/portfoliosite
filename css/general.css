@@ -40,7 +40,7 @@ body {
 
 header {
   display: flex;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
   padding-top: 20px;
   background-color: var(--color-bg2);
 }
@@ -138,6 +138,22 @@ nav.active .menu a {
   color: var(--color-bg3);
 }
 
+.project-nav {
+  padding-left: 2.2rem;
+  font-size: 2rem;
+  gap: 2rem;
+}
+
+.logo {
+  max-height: 60px;
+}
+
+/* HERO */
+
+.hero img {
+  max-width: 100%;
+}
+
 /* ----- BOXE -----*/
 
 /* Sections */
@@ -150,6 +166,31 @@ section {
 
 .section-index {
   background-color: var(--color-bg2);
+}
+
+.section-portfolio1,
+.section-portfolio2,
+.section-portfolio3,
+.section-portfolio4,
+.section-portfolio5,
+.section-portfolio6 {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  height: 200px;
+  max-width: 300px;
+  text-align: center;
+  h2 {
+    margin-top: 100px;
+  }
+}
+
+.grid-1-1-1 a:hover {
+  transform: translateY(-5px);
+  transition: 0.3s ease;
+  opacity: 1;
 }
 
 .section-portfolio1 {
@@ -186,10 +227,23 @@ section {
   margin: auto;
 }
 
+.button1:hover {
+  transform: translateY(-2px);
+  transition: 0.3s ease;
+  opacity: 0.9;
+}
+
+/* FOOTER */
+
 footer {
   text-align: center;
   position: relative;
   font-family: archivo;
+}
+
+#info {
+  max-width: 100%;
+  border: 1px solid var(--color-border);
 }
 
 /* ------DESKTOP----- */
@@ -248,6 +302,12 @@ footer {
   .grid-1-1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+  }
+
+  .grid-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 2em;
   }
 }
