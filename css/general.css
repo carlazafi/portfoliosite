@@ -1,14 +1,14 @@
 @font-face {
   font-family: special;
-  src: url(/fonts/SpecialGothicExpandedOne-Regular.woff2);
+  src: url(../fonts/SpecialGothicExpandedOne-Regular.woff2);
 }
 @font-face {
   font-family: archivoblack;
-  src: url(/fonts/ArchivoBlack-Regular.woff2);
+  src: url(../fonts/ArchivoBlack-Regular.woff2);
 }
 @font-face {
   font-family: archivo;
-  src: url(/fonts/Archivo-VariableFont_wdth\,wght.woff2);
+  src: url(../fonts/Archivo-VariableFont_wdth\,wght.woff2);
 }
 
 /* GENERELT */
@@ -33,10 +33,19 @@
   --color-border: #0061ff;
 }
 
+/* BODY */
+
+html,
 body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   background-color: var(--color-bg1);
 }
-/* HEADER */
 
 header {
   display: flex;
@@ -48,8 +57,8 @@ header {
 }
 
 main {
-  margin-left: auto;
   overflow-wrap: break-word;
+  flex: 1 0 auto;
 }
 
 /* SKRIFT*/
@@ -180,6 +189,7 @@ nav.active .menu a {
 
 .logo {
   max-height: 40px;
+  margin-left: 20px;
 }
 
 /* HERO */
@@ -237,6 +247,7 @@ section {
   height: 200px;
   max-width: 300px;
   text-align: center;
+  margin: 1em;
   h2 {
     margin-top: 100px;
   }
@@ -292,7 +303,6 @@ section {
 
 footer {
   text-align: center;
-  position: relative;
   font-family: archivo;
 }
 
