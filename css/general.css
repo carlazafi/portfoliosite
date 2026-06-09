@@ -62,6 +62,7 @@ header {
 main {
   overflow-wrap: break-word;
   flex: 1 0 auto;
+  padding: 1rem;
 }
 
 /* SKRIFT*/
@@ -69,20 +70,19 @@ main {
 h1 {
   font-family: special;
   color: var(--color-h1);
-  padding: 1rem;
 }
 
 h2,
 h3 {
   font-family: archivoblack;
   color: var(--color-h2);
-  padding: 1rem;
+  padding-bottom: 1rem;
 }
 
 p {
   font-family: archivo;
   color: var(--color-p);
-  padding: 1em;
+  padding-bottom: 1rem;
 }
 
 a {
@@ -317,6 +317,14 @@ section {
 
 .Tbox {
   border-bottom: 1px solid var(--color-border);
+}
+.Tbox ul {
+  list-style: none;
+  font-family: archivo;
+  margin-bottom: 1rem;
+}
+.Tbox h3 {
+  padding-top: 1rem;
 }
 
 /* FOOTER */
