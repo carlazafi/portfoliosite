@@ -12,7 +12,7 @@ function infoWork() {
   const box = document.querySelector(".info-text");
   box.classList.add("visible");
   document.querySelector(".info-text > h2").textContent = "Arbejde";
-  document.querySelector(".placeholder").innerHTML = "<p>De seneste år har jeg beskæftiget mig med værtsskab i mange afarter. <br> Min baggrund rummer alt fra lærergerningen til lederskab, dyk ned i mit CV herunder</p>";
+  document.querySelector(".placeholder").innerHTML = "<p>De seneste år har jeg beskæftiget mig med værtsskab i mange afarter. <br> Min baggrund rummer alt fra lærergerningen til lederskab, dyk ned i mit CV her på siden</p>";
 }
 
 function infoHobby() {

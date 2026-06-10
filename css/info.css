@@ -40,9 +40,6 @@
   margin-top: 0.5rem;
 }
 
-.cv {
-  border: 1px solid black;
-}
 li {
   font-family: archivo;
 }
@@ -58,4 +55,8 @@ ul {
 
 h3 {
   padding-top: 2rem;
+}
+
+svg {
+  max-width: 500px;
 }
