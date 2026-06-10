@@ -339,7 +339,7 @@ section {
 }
 
 .T-img {
-  width: 300px;
+  width: 500px;
   height: 200px;
   max-width: 100%;
   object-fit: cover;
@@ -437,5 +437,11 @@ footer {
     display: grid;
     grid-template-columns: 2fr 2fr;
     gap: 2em;
+  }
+
+  .grid-box {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 1rem;
   }
 }
