@@ -345,6 +345,8 @@ section {
   object-fit: cover;
   display: block;
   border-radius: 6px;
+  margin-bottom: 0.5rem;
+  border: 0.5px solid var(--color-border);
 }
 
 /* FOOTER */
